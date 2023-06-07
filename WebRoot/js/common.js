@@ -19,7 +19,7 @@ $(function() {
 
 /*
  * 获取权限信息, 传入模块编号及回调函数
- * te5l.com [K]
+ * xiaoming [K]
  */
 function findModuleParameter(moduleCode, initFun) {
 	if(!moduleCode) return;
@@ -45,7 +45,7 @@ function findModuleParameter(moduleCode, initFun) {
 }
 /*
  * 退出登录
- * te5l.com [K]
+ * xiaoming [K]
  */
 function exit(){
 	BootstrapDialog.confirm("请确认是是否需要注销登录!", function(result){
@@ -63,7 +63,7 @@ function exit(){
 }
 /*
  * 根据当前帐号的权限获取导航菜单
- * te5l.com [K]
+ * xiaoming [K]
  */
 function findMenu(moduleCode, initFun) {
 	$.getJSON('mgr/findMenu', function(data) {
@@ -83,7 +83,7 @@ function findMenu(moduleCode, initFun) {
 }
 /*
  * 获取面包绡
- * te5l.com [K]
+ * xiaoming [K]
  */
 function findBreadcrumb(){
 	$.post('mgr/findBreadcrumb', {moduleCode : moduleCode}, function(data){
@@ -96,7 +96,7 @@ function findBreadcrumb(){
 }
 /*
  * 最佳面包绡
- * te5l.com [K]
+ * xiaoming [K]
  */
 function addBreadcrumb(msg){
 	$('ol.breadcrumb').find('.active').removeClass('active');
@@ -104,7 +104,7 @@ function addBreadcrumb(msg){
 }
 /*
  * 解析导航菜单
- * te5l.com [K]
+ * xiaoming [K]
  */
 function analyzeMenu(code, data){
 	var ul = '';

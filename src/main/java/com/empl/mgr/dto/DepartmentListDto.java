@@ -5,7 +5,7 @@ import java.util.Date;
 
 /**
  * 部门列表展示传输实体类
- * te5l.com [K]
+ * xiaoming [K]
  * @author Kiro
  */
 public class DepartmentListDto implements Serializable {

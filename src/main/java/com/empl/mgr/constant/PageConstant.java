@@ -4,7 +4,7 @@ public class PageConstant {
 
 	/*
 	 * 普通数据列表
-	 * te5l.com [K]
+	 * xiaoming [K]
 	 */
 	public static final int PAGE_LIST = 15;
 

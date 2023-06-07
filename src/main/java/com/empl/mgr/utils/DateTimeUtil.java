@@ -9,7 +9,7 @@ public class DateTimeUtil {
 
 	/*
 	 * 获取当前时间
-	 * te5l.com [K]
+	 * xiaoming [K]
 	 */
 	public static Date getCurrentTime() {
 		return new Date();
@@ -17,7 +17,7 @@ public class DateTimeUtil {
 
 	/*
 	 * 转换时间
-	 * te5l.com [K]
+	 * xiaoming [K]
 	 */
 	public static String conversionTime(Date date, String format) {
 		if (CompareUtil.isEmpty(date) || StringUtils.isEmpty(format))

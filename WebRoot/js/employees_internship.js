@@ -23,14 +23,14 @@ $(function() {
 });
 /*
  * 新窗口打开新建员工信息页面
- * te5l.com [K]
+ * xiaoming [K]
  */
 function newInternshipEmpl() {
 	window.open('./employees_internship_info.html?moduleCode=01001');
 }
 /*
  * 获取员工列表信息
- * te5l.com [K]
+ * xiaoming [K]
  */
 function findListInfo() {
 	var serType = $('button.search-btn').attr('name');
@@ -71,7 +71,7 @@ function findListInfo() {
 }
 /*
  * 获取部门列表
- * te5l.com [K]
+ * xiaoming [K]
  */
 function findDepartment(){
 	$.getJSON('./mgr/findDepartment', function(data){
@@ -84,7 +84,7 @@ function findDepartment(){
 }
 /*
  * 根据部门ID, 获取职位列表
- * te5l.com [K]
+ * xiaoming [K]
  */
 function findPosition(deptId){
 	var positionList = $('select.select-position').empty().append("<option value=0>请选择职位</option>");
@@ -98,7 +98,7 @@ function findPosition(deptId){
 }
 /*
  * 解析按钮组
- * te5l.com [K]
+ * xiaoming [K]
  */
 function analysisBtns(v){
 	var btns = "";
@@ -110,7 +110,7 @@ function analysisBtns(v){
 }
 /*
  * 录取员工
- * te5l.com [K]
+ * xiaoming [K]
  */
 function enroll(id){
 	if(!id) return;
@@ -127,7 +127,7 @@ function enroll(id){
 }
 /*
  * 淘汰员工
- * te5l.com [K]
+ * xiaoming [K]
  */
 function eliminate(id){
 	if(!id) return;

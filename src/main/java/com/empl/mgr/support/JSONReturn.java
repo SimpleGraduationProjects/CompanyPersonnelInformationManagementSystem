@@ -8,26 +8,26 @@ public class JSONReturn implements Serializable {
 
 	/*
 	 * JSON头
-	 * te5l.com [K]
+	 * xiaoming [K]
 	 */
 	private boolean head;
 
 	/*
 	 * JSON主体
-	 * te5l.com [K]
+	 * xiaoming [K]
 	 */
 	private Object body;
 
 	/*
 	 * 返回头
-	 * te5l.com [K]
+	 * xiaoming [K]
 	 */
 	private static final boolean HEAD_SUCCESS = true;
 	private static final boolean HEAD_FAILURE = false;
 
 	/*
 	 * 返回空主体
-	 * te5l.com [K]
+	 * xiaoming [K]
 	 */
 	private static final String EMPTY_BODY = "";
 
@@ -63,7 +63,7 @@ public class JSONReturn implements Serializable {
 
 	/*
 	 * 成功
-	 * te5l.com [K]
+	 * xiaoming [K]
 	 */
 	public static JSONReturn buildSuccess(Object body) {
 		return build(HEAD_SUCCESS, body);
@@ -71,7 +71,7 @@ public class JSONReturn implements Serializable {
 
 	/*
 	 * 失败
-	 * te5l.com [K]
+	 * xiaoming [K]
 	 */
 	public static JSONReturn buildFailure(Object body) {
 		return build(HEAD_FAILURE, body);
@@ -79,7 +79,7 @@ public class JSONReturn implements Serializable {
 
 	/*
 	 * 成功,空主体
-	 * te5l.com [K]
+	 * xiaoming [K]
 	 */
 	public static JSONReturn buildSuccessWithEmptyBody() {
 		return build(HEAD_SUCCESS, EMPTY_BODY);
@@ -87,7 +87,7 @@ public class JSONReturn implements Serializable {
 
 	/*
 	 * 失败,空主体
-	 * te5l.com [K]
+	 * xiaoming [K]
 	 */
 	public static JSONReturn buildFailureWithEmptyBody() {
 		return build(HEAD_FAILURE, EMPTY_BODY);

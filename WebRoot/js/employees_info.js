@@ -34,7 +34,7 @@ function initFun() {
 }
 /*
  * jQuery 扩展
- * te5l.com [K]
+ * xiaoming [K]
  */
 (function($){
 	var commpny = "<tr class='compnay-tr'>";
@@ -210,7 +210,7 @@ $(function(){
 	});
 	/*
 	 * 现居住地址联动
-	 * te5l.com [K]
+	 * xiaoming [K]
 	 */
 	$('select.current-province, select.register-province').change(function(){
 		if(!$(this).val()) return;
@@ -237,7 +237,7 @@ $(function(){
 });
 /*
  * 验证表单数据
- * te5l.com [K]
+ * xiaoming [K]
  */
 function detectionForm(){
 	$.isSubmit = true;	// 重置表单为可提交
@@ -276,7 +276,7 @@ function detectionForm(){
 };
 /*
  * 获取部门下拉框
- * te5l.com [K]
+ * xiaoming [K]
  */
 function findDepartment(current){
 	$('select.position').empty().append('<option value=0>请选择职位</option>'); // 设置默认职位
@@ -288,7 +288,7 @@ function findDepartment(current){
 }
 /*
  * 获取前工作单位信息
- * te5l.com [K]
+ * xiaoming [K]
  */
 function findCompany(){
 	var compnayLength = $('tr.compnay-tr').length;
@@ -307,7 +307,7 @@ function findCompany(){
 }
 /*
  * 遍历单选或多选项
- * te5l.com [K]
+ * xiaoming [K]
  */
 function findChoose(current){
 	$.getJSON('./mgr/employees/internship/findChoose', function(data){
@@ -332,7 +332,7 @@ function findChoose(current){
 }
 /*
  * 返回单选按钮
- * te5l.com [K]
+ * xiaoming [K]
  */
 function getLabelRadio(current, id, name, text){
 	return $("<label class='label'></label>")
@@ -341,7 +341,7 @@ function getLabelRadio(current, id, name, text){
 }
 /*
  * 保存员工信息
- * te5l.com [K]
+ * xiaoming [K]
  */
 function saveOrModifyEmployeesInfo(){ 
 	detectionForm();
@@ -363,7 +363,7 @@ function saveOrModifyEmployeesInfo(){
 };
 /*
  * 获取员工基本信息
- * te5l.com [K]
+ * xiaoming [K]
  */
 $.findEmployeesInfo = function(emplId){
 	if(!emplId) return;

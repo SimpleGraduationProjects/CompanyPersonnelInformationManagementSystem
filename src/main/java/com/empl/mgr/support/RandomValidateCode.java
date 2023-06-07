@@ -29,7 +29,7 @@ public class RandomValidateCode implements Serializable {
 
 	/*
 	 * 获得字体
-	 * te5l.com [K]
+	 * xiaoming [K]
 	 */
 	private static Font getFont() {
 		return new Font("Fixedsys", Font.CENTER_BASELINE, 18);
@@ -37,7 +37,7 @@ public class RandomValidateCode implements Serializable {
 
 	/*
 	 * 获得颜色
-	 * te5l.com [K]
+	 * xiaoming [K]
 	 */
 	private static Color getRandColor(int fc, int bc) {
 		if (fc > 255)
@@ -52,7 +52,7 @@ public class RandomValidateCode implements Serializable {
 
 	/*
 	 * 生成随机图片
-	 * te5l.com [K]
+	 * xiaoming [K]
 	 */
 	public static void getRandcode(HttpServletRequest request, HttpServletResponse response) {
 		HttpSession session = request.getSession();
@@ -87,7 +87,7 @@ public class RandomValidateCode implements Serializable {
 
 	/*
 	 * 绘制字符串
-	 * te5l.com [K]
+	 * xiaoming [K]
 	 */
 	private static String drowString(Graphics g, String randomString, int i) {
 		g.setFont(getFont());
@@ -101,7 +101,7 @@ public class RandomValidateCode implements Serializable {
 
 	/*
 	 * 绘制干扰线
-	 * te5l.com [K]
+	 * xiaoming [K]
 	 */
 	private static void drowLine(Graphics g) {
 		int x = random.nextInt(width);
@@ -111,7 +111,7 @@ public class RandomValidateCode implements Serializable {
 
 	/*
 	 * 获取随机的字符
-	 * te5l.com [K]
+	 * xiaoming [K]
 	 */
 	public static String getRandomString(int num) {
 		return String.valueOf(randString.charAt(num));

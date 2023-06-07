@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 /**
  * 权限实体传输类
- * te5l.com [K]
+ * xiaoming [K]
  * @author Kiro
  */
 public class SecureValidDto implements Serializable {

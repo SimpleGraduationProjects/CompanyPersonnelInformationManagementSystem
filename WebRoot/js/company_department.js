@@ -15,7 +15,7 @@ function initFun() {
 }
 /*
  * 获取部门列表 
- * te5l.com [K]
+ * xiaoming [K]
  */
 function findListInfo() {
 	$.post('mgr/department/findDepartmentList', {
@@ -46,7 +46,7 @@ function findListInfo() {
 }
 /*
  * 分析操作按钮 
- * te5l.com [K]
+ * xiaoming [K]
  */
 function analyzeBtns(v) {
 	var btns = "";
@@ -57,7 +57,7 @@ function analyzeBtns(v) {
 }
 /*
  * 显示部门员工列表, 选择经理 
- * te5l.com [K]
+ * xiaoming [K]
  */
 function showManagerList(principal, deptId) {
 	if (!deptId) return;
@@ -75,7 +75,7 @@ function showManagerList(principal, deptId) {
 }
 /*
  * 设置部门经理 
- * te5l.com [K]
+ * xiaoming [K]
  */
 function setPrincipal() {
 	$.getJSON('mgr/department/setPrincipal', {
@@ -90,7 +90,7 @@ function setPrincipal() {
 }
 /*
  * 提示并确定删除部门信息 
- * te5l.com [K]
+ * xiaoming [K]
  */
 function hintDelete(id) {
 	if (!id) return;
@@ -107,7 +107,7 @@ function hintDelete(id) {
 }
 /*
  * 显示部门编辑窗口 
- * te5l.com [K]
+ * xiaoming [K]
  */
 function showModifyBox(deptId) {
 	$('.empty').removeClass('empty');
@@ -129,7 +129,7 @@ function showModifyBox(deptId) {
 }
 /*
  * 修改部门信息
- * te5l.com [K]
+ * xiaoming [K]
  */
 var dept = {};
 function modifyDept(deptId) {
@@ -154,7 +154,7 @@ function modifyDept(deptId) {
 }
 /*
  * 显示部门添加窗口 
- * te5l.com [K]
+ * xiaoming [K]
  */
 function showAddBox() {
 	$('.empty').removeClass('empty');
@@ -164,7 +164,7 @@ function showAddBox() {
 }
 /*
  * 添加部门信息 
- * te5l.com [K]
+ * xiaoming [K]
  */
 function addDepartment() {
 	$.isSubmit = true;

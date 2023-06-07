@@ -21,7 +21,7 @@ $(function() {
 });
 /*
  * 获取员工列表信息
- * te5l.com [K]
+ * xiaoming [K]
  */
 function findListInfo() {
 	var serType = $('button.search-btn').attr('name');
@@ -62,7 +62,7 @@ function findListInfo() {
 }
 /*
  * 获取部门列表
- * te5l.com [K]
+ * xiaoming [K]
  */
 function findDepartment(){
 	$.getJSON('./mgr/findDepartment', function(data){
@@ -75,7 +75,7 @@ function findDepartment(){
 }
 /*
  * 解析按钮组
- * te5l.com [K]
+ * xiaoming [K]
  */
 function analysisBtns(v){
 	var btns = "";
@@ -87,7 +87,7 @@ function analysisBtns(v){
 }
 /*
  * 跳转到编辑页面
- * te5l.com [K]
+ * xiaoming [K]
  */
 function modifyInternshipEmpl(id){ 
 	if(!id) return;
@@ -95,7 +95,7 @@ function modifyInternshipEmpl(id){
 }
 /*
  * 员工离职
- * te5l.com [K]
+ * xiaoming [K]
  */
 function departure(id){
 	if(!id) return;
@@ -105,7 +105,7 @@ function departure(id){
 }
 /*
  * 员工离职
- * te5l.com [K]
+ * xiaoming [K]
  */
 function departureEmployees(){
 	if(!empl.id) return;
@@ -123,7 +123,7 @@ function departureEmployees(){
 }
 /*
  * 根据部门ID, 获取职位列表
- * te5l.com [K]
+ * xiaoming [K]
  */
 function findPosition(deptId){
 	var positionList = $('select.select-position').empty().append("<option value=0>请选择职位</option>");
@@ -165,7 +165,7 @@ function analysisRecordBtns(v){
 }
 /*
  * 显示备注
- * te5l.com [K]
+ * xiaoming [K]
  */
 function showNote(message){
 	new BootstrapDialog({

@@ -5,7 +5,7 @@ import java.util.Date;
 
 /**
  * 角色列表实体传输类
- * te5l.com [K]
+ * xiaoming [K]
  * @author Kiro
  */
 public class RoleListDto implements Serializable {

@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 /**
  * 职位实体传输类
- * te5l.com [K]
+ * xiaoming [K]
  * @author Kiro
  */
 public class PositionDto implements Serializable {

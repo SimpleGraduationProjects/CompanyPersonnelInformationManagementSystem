@@ -10,7 +10,7 @@ function initFun() {
 var training = {};
 /*
  * 显示添加窗口 
- * te5l.com [K]
+ * xiaoming [K]
  */
 function showAddBox() {
 	$('.empty').removeClass('empty');
@@ -22,7 +22,7 @@ function showAddBox() {
 }
 /*
  * 添加培训项目 
- * te5l.com [K]
+ * xiaoming [K]
  */
 function addTraining() {
 	$.isSubmit = true;
@@ -53,7 +53,7 @@ function addTraining() {
 }
 /*
  * 获取列表数据 
- * te5l.com [K]
+ * xiaoming [K]
  */
 function findListInfo() {
 	var searchValue = $('input.searchValue').val();
@@ -79,7 +79,7 @@ function findListInfo() {
 }
 /*
  * 获取分页数据 
- * te5l.com [K]
+ * xiaoming [K]
  */
 function findListPage() {
 	var searchValue = $('input.searchValue').val();
@@ -89,7 +89,7 @@ function findListPage() {
 }
 /*
  * 提示删除 
- * te5l.com [K]
+ * xiaoming [K]
  */
 function hintDelete(id) {
 	if (!id) return;
@@ -104,7 +104,7 @@ function hintDelete(id) {
 }
 /*
  * 显示详情 
- * te5l.com [K]
+ * xiaoming [K]
  */
 function showDetails(id) {
 	if (!id) return;
@@ -126,7 +126,7 @@ function showDetails(id) {
 }
 /*
  * 显示编辑窗口
- *  te5l.com [K]
+ *  xiaoming [K]
  */
 function showModify(id) {
 	$('.empty').removeClass('empty');
@@ -150,7 +150,7 @@ function showModify(id) {
 }
 /*
  * 编辑数据 
- * te5l.com [K]
+ * xiaoming [K]
  */
 function modifyTraining() {
 	$.isSubmit = true;
@@ -178,7 +178,7 @@ function modifyTraining() {
 }
 /*
  * 解析操作按钮 
- * te5l.com [K]
+ * xiaoming [K]
  */
 function analyzeBtns(v) {
 	var btns = "";
@@ -193,7 +193,7 @@ function analyzeBtns(v) {
 }
 /*
  * 响应搜索按钮
- * te5l.com [K]
+ * xiaoming [K]
  */
 function search() {
 	dialog = BootstrapDialog.loading();
@@ -201,7 +201,7 @@ function search() {
 }
 /*
  * 开始项目 
- * te5l.com [K]
+ * xiaoming [K]
  */
 function start(id) {
 	if (!id) return;
@@ -218,7 +218,7 @@ function start(id) {
 }
 /*
  * 弹出窗口, 填写培训结果
- * te5l.com [K]
+ * xiaoming [K]
  */
 function writeStopNote(id, end) {
 	if (!id) return;
@@ -229,7 +229,7 @@ function writeStopNote(id, end) {
 }
 /*
  * 停止培训项目 
- * te5l.com [K]
+ * xiaoming [K]
  */
 function stop() {
 	if (!training.id) return;
@@ -252,7 +252,7 @@ function stop() {
 }
 /*
  * 显示参加培训列表记录
- * te5l.com [K]
+ * xiaoming [K]
  */
 function showRecord(id) {
 	if (!id) return;
@@ -299,7 +299,7 @@ function showRecord(id) {
 }
 /*
  * 渲染培训记录操作按钮
- * te5l.com [K]
+ * xiaoming [K]
  */
 function analyzeApplyBtns(v){
 	var btns = "";
@@ -318,7 +318,7 @@ function analyzeApplyBtns(v){
 }
 /*
  * 关闭报名参加培训班员工列表窗口
- * te5l.com [K]
+ * xiaoming [K]
  */
 function closeApplyRecord(){
 	findListInfo();
@@ -326,7 +326,7 @@ function closeApplyRecord(){
 }
 /*
  * 显示员工列表框
- * te5l.com [K]
+ * xiaoming [K]
  */
 function showAddEmplBox() {
 	if (!training.id) return;
@@ -337,7 +337,7 @@ function showAddEmplBox() {
 }
 /*
  * 获取部门列表
- * te5l.com [K]
+ * xiaoming [K]
  */
 function findDepartment(current){
 	$.depar = $('select.select-department').empty().append('<option value=0>请选择部门</option>'); 
@@ -350,7 +350,7 @@ function findDepartment(current){
 }
 /*
  * 获取员工列表
- * te5l.com [K]
+ * xiaoming [K]
  */
 function findEmployeesList(){
 	if(!training.id) return;
@@ -380,7 +380,7 @@ function findEmployeesList(){
 }
 /*
  * 渲染添加培训记录按钮
- * te5l.com [K]
+ * xiaoming [K]
  */
 function analyzeAddTrainingBtns(v){
 	var btns = "";
@@ -389,7 +389,7 @@ function analyzeAddTrainingBtns(v){
 }
 /*
  * 添加报名记录
- * te5l.com [K]
+ * xiaoming [K]
  */
 function addTrainingByEmplId(emplId, obj){
 	if(!emplId || !training.id) return;
@@ -402,7 +402,7 @@ function addTrainingByEmplId(emplId, obj){
 } 
 /*
  * 关闭搜索员工列表窗口
- * te5l.com [K]
+ * xiaoming [K]
  */
 function closeEmplListBox(){
 	showRecord(training.id);
@@ -410,7 +410,7 @@ function closeEmplListBox(){
 }
 /*
  * 删除员工报名记录
- * te5l.com [K]
+ * xiaoming [K]
  */
 function delEmployeesTraining(id){
 	BootstrapDialog.confirm('请确认是否删除该员工的报名记录?', function(result){
@@ -428,7 +428,7 @@ function delEmployeesTraining(id){
 }
 /*
  * 退出培训班
- * te5l.com [K]
+ * xiaoming [K]
  */
 function stopTraining(id){
 	if(!id) return;
@@ -438,7 +438,7 @@ function stopTraining(id){
 }
 /*
  * 退出培训班
- * te5l.com [K]
+ * xiaoming [K]
  */
 function stopEmployeesTraining(){
 	if(!training.logId) return;
@@ -456,7 +456,7 @@ function stopEmployeesTraining(){
 }
 /*
  * 显示评分窗口
- * te5l.com [K]
+ * xiaoming [K]
  */
 function evaluationTraining(id, note){
 	if(!id) return;
@@ -466,7 +466,7 @@ function evaluationTraining(id, note){
 }
 /*
  * 为培训评分
- * te5l.com [K]
+ * xiaoming [K]
  */
 function evaluationEmployeesTraining(){
 	if(!training.logId) return;
@@ -484,7 +484,7 @@ function evaluationEmployeesTraining(){
 }
 /*
  * 显示备注
- * te5l.com [K]
+ * xiaoming [K]
  */
 function showNote(title,message){
 	new BootstrapDialog({
@@ -497,7 +497,7 @@ function showNote(title,message){
 }
 /*
  * 提示并添加所有记录
- * te5l.com [K]
+ * xiaoming [K]
  */
 function addAllTraining(){
 	BootstrapDialog.confirm('请确认是否添加当前搜索结果中的所有员工!', function(result){

@@ -152,7 +152,7 @@ public class EmployeesServiceImpl implements EmployeesService {
 
 	/*
 	 * 解析并转换员工地址信息
-	 * te5l.com [K]
+	 * xiaoming [K]
 	 */
 	private long analyzeAddress(EmployeesAddressDto dto, long emId, int type, TeAddress ads, boolean isSave) {
 		// TODO Auto-generated method stub
@@ -172,7 +172,7 @@ public class EmployeesServiceImpl implements EmployeesService {
 
 	/*
 	 * 解析并转换员工工作经历信息
-	 * te5l.com [K]
+	 * xiaoming [K]
 	 */
 	private boolean conversionEmployeesCompany(EmployeesCompnayDto[] companyArray, long emId) {
 		// TODO Auto-generated method stub
@@ -193,7 +193,7 @@ public class EmployeesServiceImpl implements EmployeesService {
 
 	/*
 	 * 解析并转换员工详细信息
-	 * te5l.com [K]
+	 * xiaoming [K]
 	 */
 	private TeEmployeesDetail conversionEmployeesDetail(TeEmployeesDetail detail, EmployeesInfoDto dto, long emId) {
 		// TODO Auto-generated method stub
@@ -215,7 +215,7 @@ public class EmployeesServiceImpl implements EmployeesService {
 
 	/*
 	 * 解析并转换员工基本信息
-	 * te5l.com [K]
+	 * xiaoming [K]
 	 */
 	private TeEmployeesBasic conversionEmployeesBasic(TeEmployeesBasic basic, EmployeesInfoDto dto, String acctName) {
 		// TODO Auto-generated method stub'

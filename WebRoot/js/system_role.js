@@ -20,7 +20,7 @@ function initFun() {
 }
 /*
  * 获取列表数据
- * te5l.com [K]
+ * xiaoming [K]
  */
 function findListInfo() {
 	$.post('mgr/role/findRoleList', {
@@ -45,7 +45,7 @@ function findListInfo() {
 }
 /*
  * 获取列表分页
- * te5l.com [K]
+ * xiaoming [K]
  */
 function findRolePage() {
 	$.post('mgr/role/findRolePage', {page : page,searchVal : $('input.searchInput').val()}, function(data) {
@@ -54,7 +54,7 @@ function findRolePage() {
 }
 /*
  * 解析数据列表的操作按钮
- * te5l.com [K]
+ * xiaoming [K]
  */
 function analyzeBtns(v) {
 	var btns = ""; 
@@ -65,7 +65,7 @@ function analyzeBtns(v) {
 }
 /*
  * 显示添加角色窗口
- * te5l.com [K]
+ * xiaoming [K]
  */
 function showAddBox(){
 	$('.empty').removeClass('empty');
@@ -75,7 +75,7 @@ function showAddBox(){
 }
 /*
  * 添加角色
- * te5l.com [K]
+ * xiaoming [K]
  */
 function addRole(){
 	$.isSubmit = true;
@@ -93,7 +93,7 @@ function addRole(){
 }
 /*
  * 显示编辑角色信息窗口
- * te5l.com [K]
+ * xiaoming [K]
  */
 function showModifyBox(id){
 	$('.empty').removeClass('empty');
@@ -110,7 +110,7 @@ function showModifyBox(id){
 }
 /*
  * 编辑
- * te5l.com [K]
+ * xiaoming [K]
  */
 function modifyRole(){
 	if(!role.id) return;
@@ -133,7 +133,7 @@ function modifyRole(){
 }
 /*
  * 提示并删除数据
- * te5l.com [K]
+ * xiaoming [K]
  */
 function hintDelete(id){
 	if(!id) return;
@@ -151,7 +151,7 @@ function hintDelete(id){
 
 /*
  * 遍历模块列表数据
- * te5l.com [K]
+ * xiaoming [K]
  */
 function listModule(id){
 	if(!id) return;
@@ -198,7 +198,7 @@ function findAdd(l){
 }
 /*
  * 为角色设置模块
- * te5l.com [K]
+ * xiaoming [K]
  */
 function setRoleSecureValid(obj, code, type){
 	if(!code) return;

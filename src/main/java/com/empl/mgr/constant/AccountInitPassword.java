@@ -4,8 +4,8 @@ public class AccountInitPassword {
 
 	/*
 	 * 初始化密码
-	 * te5l.com [K]
+	 * xiaoming [K]
 	 */
-	public static final String ACCOUNT_INIT_PASSWORD = "www.te5l.com";
+	public static final String ACCOUNT_INIT_PASSWORD = "www.xiaoming";
 
 }

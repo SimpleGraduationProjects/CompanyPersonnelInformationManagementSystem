@@ -5,7 +5,7 @@ import java.io.Serializable;
 /**
  * 员工列表传输实体类
  * @author 樱花满天
- * te5l.com [K]
+ * xiaoming [K]
  */
 public class EmployeesInternshipListDto implements Serializable {
 

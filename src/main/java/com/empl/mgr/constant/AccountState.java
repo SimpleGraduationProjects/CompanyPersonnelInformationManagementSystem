@@ -4,7 +4,7 @@ public class AccountState {
 
 	/*
 	 * 普通会员
-	 * te5l.com [K]
+	 * xiaoming [K]
 	 */
 	public static final int ACCOUNT_GENERAL = 0;
 
